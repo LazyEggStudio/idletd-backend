@@ -1,0 +1,16 @@
+{
+	"compatibility_date": "2025-10-08",
+	"main": "src/index.ts",
+	"name": "idletd-backend",
+	"upload_source_maps": true,
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_id": "8b3e4855-57da-4e35-ac97-eb019cf8c921",
+			"database_name": "idletd-db"
+		}
+	],
+	"observability": {
+		"enabled": true
+	}
+}
