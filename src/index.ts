@@ -4,7 +4,7 @@ import {
   getBiomeKeyFromMap,
   getRareMaterialNameForMap,
   getRuntimeMapFromActiveRun,
-} from "./sim";
+} from "./sim.js";
 
 function json(data, init = {}) {
   const headers = new Headers(init.headers || {});
